@@ -1,6 +1,6 @@
-const data = [
+export default [
     {
-        image: './Images/vrindavan.jpg',
+        image: 'vrindavan.jpg',
         state: "Uttar Pradesh",
         googleMapLink: "#",
         name: "Vrindavan",
@@ -8,7 +8,7 @@ const data = [
         description: "Vrindavan is part of the holy BrajBbhoomi. The land was inhabited by Bhagwan Shri Krishna during his youth. Millions of pilgrims visit every now and then. There is a strange yet peaceful sense of calmness. It is said that Vrindavan resides in the heart of Shri Krishna."
     },
     {
-        image: './Images/agra.jpg',
+        image: 'agra.jpeg',
         state: "Uttar Pradesh",
         googleMapLink: "#",
         name: "Agra",
@@ -16,7 +16,7 @@ const data = [
         description: "I came here for the wedding of my cousin. We stayed at the Jaypee Palace. I visited the Taj Mahal just before the wedding. It was magnificent and beautiful. People are friendly and the food is good. The time spent here with my family will always be etched in my memory"
     },
     {
-        image: './Images/corbett.jpg',
+        image: 'corbett.jpeg',
         state: "Uttarakhand",
         googleMapLink: "#",
         name: "Jim Corbett",
