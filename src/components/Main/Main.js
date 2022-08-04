@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../Card/Card";
 import Data from "../../Data/Data"
+import './Main.css'
 
 const Main = () => {
     const cards = Data.map(item=>{
@@ -16,8 +17,8 @@ const Main = () => {
         )
     })
     return(
-        <div>
-       {cards}
+        <div className="main--cards">
+                {cards}
         </div>
     )
 }
